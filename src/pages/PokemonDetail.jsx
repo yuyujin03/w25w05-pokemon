@@ -6,7 +6,7 @@ const PokemonDetail = () => {
   return (
     <div>
       <img 
-        src={`https://picsum.photos/192/192?random=${id}`} 
+        src={`https://picsum.photos/128/128?random=${id}`} 
         alt="포켓몬 이미지"/>
       <h2>{id}</h2>
       <Link to="/">
